@@ -10,11 +10,11 @@
   },
   "main": "src/index.js",
   "dependencies": {
-    "corslite": "0.0.6",
+    "@mapbox/corslite": "0.0.7",
     "isarray": "0.0.1",
     "leaflet": "1.0.2",
     "mustache": "2.2.1",
-    "sanitize-caja": "0.1.4"
+    "@mapbox/sanitize-caja": "0.1.4"
   },
   "scripts": {
     "test": "eslint --no-eslintrc -c .eslintrc src && phantomjs node_modules/mocha-phantomjs-core/mocha-phantomjs-core.js test/index.html"
@@ -37,7 +37,6 @@
     "phantomjs-prebuilt": "2.1.12",
     "sinon": "1.10.2"
   },
-  "optionalDependencies": {},
   "engines": {
     "node": "*"
   },
