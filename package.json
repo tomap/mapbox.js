@@ -35,7 +35,7 @@
     "mocha": "2.5.3",
     "mocha-phantomjs-core": "2.1.2",
     "phantomjs-prebuilt": "2.1.16",
-    "sinon": "1.17.7"
+    "sinon": "1.10.2"
   },
   "engines": {
     "node": "*"
