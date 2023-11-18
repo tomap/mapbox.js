@@ -17,9 +17,14 @@ var MapboxLogoControl = L.Control.extend({
 
     _setTileJSON: function(json) {
         // Check if account referenced by the accessToken
-        // is asscociated with the Mapbox Logo
+        // is associated with the Mapbox Logo
         // as determined by mapbox-maps.
         if (json.mapbox_logo) {
+            L.DomUtil.addClass(this._container, 'mapbox-logo-true');
+        }
+
+        // account for usage of styleJSON as functional tileJSON for defaults
+        if (!json.tilejson && json.owner === 'mapbox') {
             L.DomUtil.addClass(this._container, 'mapbox-logo-true');
         }
     }
