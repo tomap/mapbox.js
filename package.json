@@ -34,7 +34,7 @@
     "happen": "0.3.2",
     "marked": "~0.6.1",
     "minifyify": "^7.3.5",
-    "minimist": "1.2.0",
+    "minimist": "1.2.6",
     "mocha": "6.0.1",
     "mocha-phantomjs-core": "2.1.2",
     "phantomjs-prebuilt": "2.1.16",
