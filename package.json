@@ -20,7 +20,7 @@
   "dependencies": {
     "@mapbox/corslite": "0.0.7",
     "@mapbox/sanitize-caja": "^0.1.4",
-    "leaflet": "1.4.0",
+    "leaflet": "1.9.4",
     "mustache": "4.2.0"
   },
   "scripts": {
