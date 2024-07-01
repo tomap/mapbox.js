@@ -38,7 +38,7 @@
     "marked": "^12.0.0",
     "minifyify": "^7.3.5",
     "minimist": "1.2.8",
-    "mocha": "^7.0.1",
+    "mocha": "^10.5.2",
     "mocha-phantomjs-core": "2.1.2",
     "phantomjs-prebuilt": "2.1.16",
     "sinon": "17.0.1"
