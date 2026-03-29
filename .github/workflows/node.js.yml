@@ -9,6 +9,9 @@ on:
   pull_request:
     branches: [ "mb-pages" ]
 
+permissions:
+  contents: read
+
 jobs:
   build:
 
